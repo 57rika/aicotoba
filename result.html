@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta name=”keywords” content=”Aicotoba,診断,カップル,ラブラブ度”>
+<meta name=”keywords” content="何気ないメールのやり取りの中からAicotoba【愛言葉】を見つけるアプリ">
+<title>result</title>
+</head>
+<body>
+<script type="text/javascript">
+(function (){
+var snow =["images/heart_smaill_gold.png","images/heart_small_pink.png"];
+var Zx="-1";
+var num=25;
+var imgw=34;
+var imgh=34;
+var spd=70;
+var maxOp=0.9;
+var miniOp=0.4;
+
+var sx=[], sy=[], sp=[], opa=[];
+var len=snow.length, i=0;
+var w=window.innerWidth+imgw, h=window.innerHeight+imgh;
+for (i=0; i<num; i++){
+sx[i]=Math.floor(Math.random()*w);
+sy[i]=Math.floor(Math.random()*h);
+sp[i]=Math.floor(Math.random()*6)+2;
+opa[i]=Math.random()*(maxOp-miniOp)+miniOp;
+document.write("<img src="+snow[i%len]+" id='sn"+i+"'>");
+}
+function moveSnow(){
+for (i=0; i<num; i++){
+sy[i] += sp[i];
+if (sy[i] > h) sy[i] = -imgh;
+var ob=document.getElementById("sn"+i).style;
+ob.top=-imgh+sy[i]+"px"; ob.left=-imgw+sx[i]+"px";
+ob.position="fixed"; ob.zIndex=Zx; ob.opacity=opa[i];
+}
+setTimeout(moveSnow,spd);
+}
+moveSnow();
+}());</script>
+
+	<header>
+		<div class="header_wrapper">
+			<h1>Aicotoba</h1><span>何気ないメールのやり取りの中から"愛言葉"を見つけるアプリ</span>
+		</div>
+	</header>
+	<main>
+		<div class="eye_catch">
+			<div class="wrapper">
+				<p class="result_title"><span class="aicotoba">Rika Morikawa</span>さんの診断結果</p>
+				<div class="heart">
+					<p>べーやんとのAicotoba度は</p>
+					<p><span>78%</span><span>です。</span></p>
+				</div>
+				<div class="details">
+					<p><span>一日平均</span><span id="oneday_send">14通</span><span>のメールを送りました。</span></p>
+					<p><span>一日平均</span><span id="oneday_receive">18通</span><span>のメールが届きました。</span></p>
+					<p><span>最もメールをした日は</span><span id="most_send">6月18日</span><span>です。</span></p>
+					<p><span>最もメールをしていない日は</span><span id="most_receive">6月12日</span><span>です。</span></p>
+				</div>
+			</div>
+		</div>
+		<div class="my_aicotoba">
+			<div class="wrapper">
+				<h2><img src="images/leaf01.png">あなたの<span class="aicotoba">Aicotoba</span><img src="images/leaf02.png"></h2>
+				<div class="word">
+					<p id="word01">おはよう</p>
+					<p id="word02">晃平さん</p>
+					<p id="word03">おやすみ</p>
+					<p id="word04">嬉しい</p>
+					<p id="word05">焼き肉</p>
+					<p id="word06">ありがとう</p>
+					<p id="word07">愛してるよ</p>
+					<p id="word08">楽しかった</p>
+					<p id="word09">こうへいさん</p>
+					<p id="word10">そうなんだ</p>
+					<p id="word11">今度</p>
+					<p id="word12">またね</p>
+					<p id="word13">すきだよ</p>
+				</div>
+			</div>
+		</div>
+		<div class="lovers_aicotoba">
+			<div class="wrapper">
+				<h2><img src="images/leaf01.png"><span>べーやん</span>の<span class="aicotoba">Aicotoba</span><img src="images/leaf02.png"></h2>
+				<div class="word">
+					<p id="word01">おはよう</p>
+					<p id="word02">りか</p>
+					<p id="word03">おやすみ</p>
+					<p id="word04">パクチー</p>
+					<p id="word05">大天使</p>
+					<p id="word06">ありがとう</p>
+					<p id="word07">愛してるよ</p>
+					<p id="word08">楽しかった</p>
+					<p id="word09">リカエル</p>
+					<p id="word10">痩せた</p>
+					<p id="word11">今度</p>
+					<p id="word12">可愛い</p>
+					<p id="word13">すきだよ</p>
+				</div>
+			</div>
+		</div>
+		<div class="message">
+			<div class="wrapper">
+				<p>いかがでしたか？<br>"Aicotoba"はたくさん見つかりましたでしょうか？<br>たくさん見つけた方も、そうでなかった方も、<br>思いやりや優しさを込めてコトバを贈っていきましょう。</p>
+			</div>
+		</div>
+		<div class="share">
+			<div class="wrapper">
+				<h2>ふたりの<span class="aicotoba">Aicotoba</span>を…</h2>
+				<div class="twitter"><a href=""><img src="images/twitter.svg" width="30" height="30"><span>ツイートする</span></a></div>
+				<div class="facebook"><a href=""><img src="images/facebook.svg" width="30" height="30"><span>シェアする</span></a></div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="wrapper">
+			<small><p>Copyright © Aicokotoba All Rights Reserved.</p></small>
+		</div>
+	</footer>
+</body>
+</html>
