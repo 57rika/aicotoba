@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<html lang="ja">
 <head>
-<meta charset="utf-8" />
+<meta charset="utf-8">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <meta http-equiv="Content-Style-Type" content="text/css">
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -12,38 +12,39 @@
 </head>
 <body>
 <script type="text/javascript">
-(function (){
-var snow =["images/heart_smaill_gold.png","images/heart_small_pink.png"];
-var Zx="-1";
-var num=25;
-var imgw=34;
-var imgh=34;
-var spd=70;
-var maxOp=0.9;
-var miniOp=0.4;
+	(function (){
+		var snow =["images/heart_smaill_gold.png","images/heart_small_pink.png"];
+		var Zx="-1";
+		var num=25;
+		var imgw=34;
+		var imgh=34;
+		var spd=70;
+		var maxOp=0.9;
+		var miniOp=0.4;
 
-var sx=[], sy=[], sp=[], opa=[];
-var len=snow.length, i=0;
-var w=window.innerWidth+imgw, h=window.innerHeight+imgh;
-for (i=0; i<num; i++){
-sx[i]=Math.floor(Math.random()*w);
-sy[i]=Math.floor(Math.random()*h);
-sp[i]=Math.floor(Math.random()*6)+2;
-opa[i]=Math.random()*(maxOp-miniOp)+miniOp;
-document.write("<img src="+snow[i%len]+" id='sn"+i+"'>");
-}
-function moveSnow(){
-for (i=0; i<num; i++){
-sy[i] += sp[i];
-if (sy[i] > h) sy[i] = -imgh;
-var ob=document.getElementById("sn"+i).style;
-ob.top=-imgh+sy[i]+"px"; ob.left=-imgw+sx[i]+"px";
-ob.position="fixed"; ob.zIndex=Zx; ob.opacity=opa[i];
-}
-setTimeout(moveSnow,spd);
-}
-moveSnow();
-}());</script>
+		var sx=[], sy=[], sp=[], opa=[];
+		var len=snow.length, i=0;
+		var w=window.innerWidth+imgw, h=window.innerHeight+imgh;
+		for (i=0; i<num; i++){
+			sx[i]=Math.floor(Math.random()*w);
+			sy[i]=Math.floor(Math.random()*h);
+			sp[i]=Math.floor(Math.random()*6)+2;
+			opa[i]=Math.random()*(maxOp-miniOp)+miniOp;
+			document.write("<img src="+snow[i%len]+" id='sn"+i+"'>");
+		}
+		function moveSnow(){
+			for (i=0; i<num; i++){
+				sy[i] += sp[i];
+				if (sy[i] > h) sy[i] = -imgh;
+				var ob=document.getElementById("sn"+i).style;
+				ob.top=-imgh+sy[i]+"px"; ob.left=-imgw+sx[i]+"px";
+				ob.position="fixed"; ob.zIndex=Zx; ob.opacity=opa[i];
+			}
+			setTimeout(moveSnow,spd);
+		}
+		moveSnow();
+	}());
+</script>
 
 	<header>
 		<div class="header_wrapper">
