@@ -536,7 +536,7 @@ header span {
 
 .details{
 	float: left;
-    padding: 110px 90px;
+    padding: 110px 0 110px 70px;
 
 }
 
@@ -573,6 +573,7 @@ header span {
 	margin-top: 50px;
     border: 3px dotted #666;
     border-radius: 20px;
+    overflow: hidden;
 }
 
 .lovers_aicotoba{
@@ -716,7 +717,7 @@ small p {
 }
 
 .friend_list table td:first-child{
-	width: 300px;
+	width: 280px;
 }
 
 .friend_list table td:last-child {
