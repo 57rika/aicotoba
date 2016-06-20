@@ -105,7 +105,7 @@ echo $n->getFeature() . "<br />";
     }
 }
 else{
-    echo '<form method="POST" action="./index.php">';
+    echo '<form method="POST" action="./result.php">';
     /* ユーザリストから対象選択 */
     if (isset($omsg) && empty($omsf->errors)) {
 	echo '<dl>';
