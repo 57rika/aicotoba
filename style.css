@@ -350,21 +350,21 @@ textarea {
    all
    ========================================= */
  h2{
-	 margin: 0 auto;
-	text-align: center;
-	font-size: 30px;
-	font-family: "Angelina","Hannari";
-	font-weight: 100;
+ 	margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Angelina","Hannari";
+    font-weight: 100;
 }
 
 h2 img:first-child {
-	padding: 0 30px;
-	margin-top: -30px;
+    padding: 0 30px;
+    margin-top: -30px;
 }
 
 h2 img:last-child {
-	padding: 0 30px;
-	margin-top: 0;
+    padding: 0 30px;
+    margin-top: 0;
 }
 
 .wrapper{
@@ -375,19 +375,19 @@ h2 img:last-child {
 }
 
 @font-face {
-	font-family: Angelina;
-	src: url('angelina.TTF') format("opentype");
+   font-family: Angelina;
+   src: url('angelina.TTF') format("opentype");
 }
 
 @font-face {
-	font-family: Hannari;
-	src: url('Hannari.otf') format("opentype");
+   font-family: Hannari;
+   src: url('Hannari.otf') format("opentype");
 }
 
 .aicotoba {
-	letter-spacing: 6px;
-	vertical-align: 4px;
-	margin-left: 4px;
+    letter-spacing: 6px;
+    vertical-align: 4px;
+    margin-left: 4px;
 }
 
 /* =========================================
@@ -419,17 +419,17 @@ h1{
 
 
 header span {
-	vertical-align: 5px;
+    vertical-align: 5px;
 }
 
 .btn {
-	float: right;
+    float: right;
 	padding: 10px 50px 10px 53px;
-	margin-top: 20px;
-	border: 2px solid #fff;
-	color: #fff;
-	border-radius: 5px;
-	letter-spacing: 4px;
+    margin-top: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 4px;
 }
 
 .btn:hover{
@@ -482,12 +482,12 @@ header span {
 
 .btn_top {
 	padding: 25px 100px 25px 103px;
-	border: 2px solid #d07c7f;
-	color: #d07c7f;
-	border-radius: 5px;
-	letter-spacing: 4px;
-	margin: 0 auto;
-	background-color: #fff;
+    border: 2px solid #d07c7f;
+    color: #d07c7f;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    margin: 0 auto;
+    background-color: #fff;
 }
 
 .btn_top:hover{
@@ -503,25 +503,25 @@ header span {
 }
 
 .leaf01{
-	padding-right: 30px;
-	margin-top: -20px;
+    padding-right: 30px;
+    margin-top: -20px;
 }
 
 .leaf02 {
-	margin-left: -65px;
+    margin-left: -65px;
 }
 /* =========================================
    eyecatch
    ========================================= */
 .heart{
 	float: left;
-	background-image: url("images/heart.png");
-	height: 300px;
-	width: 495px;
-	padding-top: 130px;
-	text-align: center;
-	color: #fff;
-	font-size: 20px;
+    background-image: url("images/heart.png");
+    height: 300px;
+    width: 495px;
+    padding-top: 130px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
 }
 
 .heart span:first-child{
@@ -531,26 +531,26 @@ header span {
 }
 
 .heart p:last-child {
-    	margin-top: -20px;
+    margin-top: -20px;
 }
 
 .details{
 	float: left;
-    	padding: 110px 90px;
+    padding: 110px 90px;
 
 }
 
 #oneday_send, #oneday_receive, #most_send, #most_receive{
 	padding: 0 15px;
-	font-size: 30px;
-	color: #d07c7f;
-	font-family: "TsukuBRdGothic-Regular","Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック", Osaka, sans-serif;
+    font-size: 30px;
+    color: #d07c7f;
+    font-family: "TsukuBRdGothic-Regular","Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック", Osaka, sans-serif;
 }
 
 .intro p{
-    	margin: 40px 0 70px;
+    margin: 40px 0 70px;
 	line-height: 3;
-    	font-family: "TsukuBRdGothic-Regular","Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック", Osaka, sans-serif;
+    font-family: "TsukuBRdGothic-Regular","Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック", Osaka, sans-serif;
 	font-size: 18px;
 }
 
@@ -571,8 +571,8 @@ header span {
 	padding: 40px;
 	height: 450px;
 	margin-top: 50px;
-    	border: 3px dotted #666;
-	border-radius: 20px;
+    border: 3px dotted #666;
+    border-radius: 20px;
 }
 
 .lovers_aicotoba{
@@ -593,13 +593,13 @@ header span {
 }
 
 .message p {
-	margin-top: 19px;
-	text-align: center;
-	color: #fff;
-	font-family: Hannari;
-	font-size: 23px;
-	font-weight: 100;
-	line-height: 2;
+    margin-top: 19px;
+    text-align: center;
+    color: #fff;
+    font-family: Hannari;
+    font-size: 23px;
+    font-weight: 100;
+    line-height: 2;
 }
 
 /* =========================================
@@ -610,37 +610,37 @@ header span {
 }
 
 .twitter a{
-	background-image: url("images/twitter.png");
-	float: left;
-	padding-top: 90px;
-	margin: 40px 70px 0 190px;
-	width: 287px;
-	height: 156px;
-	color: #fff;
-	text-align: center;
+    background-image: url("images/twitter.png");
+    float: left;
+    padding-top: 90px;
+    margin: 40px 70px 0 190px;
+    width: 287px;
+    height: 156px;
+    color: #fff;
+    text-align: center;
 }
 
 .twitter a:hover{
-	background-image: url("images/twitter_hover.png");
-	-webkit-transition: 0.3s ease-in-out;
+    background-image: url("images/twitter_hover.png");
+    -webkit-transition: 0.3s ease-in-out;
 	-moz-transition: 0.3s ease-in-out;
 	-o-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
 }
 
 .facebook a{
-	background-image: url("images/facebook.png");
-	float: left;
-	margin: 40px 190px 0 70px;
-	padding-top: 90px;
-	width: 287px;
-	height: 156px;
-	color: #fff;
-	text-align: center;
+    background-image: url("images/facebook.png");
+    float: left;
+    margin: 40px 190px 0 70px;
+    padding-top: 90px;
+    width: 287px;
+    height: 156px;
+    color: #fff;
+    text-align: center;
 }
 
 .facebook a:hover{
-	background-image: url("images/facebook_hover.png");
+    background-image: url("images/facebook_hover.png");
 	-webkit-transition: 0.3s ease-in-out;
 	-moz-transition: 0.3s ease-in-out;
 	-o-transition: 0.3s ease-in-out;
@@ -648,15 +648,15 @@ header span {
 }
 
 .share span {
-	margin-left: 10px;
-	vertical-align: -3px;
-	letter-spacing: 2px;
+    margin-left: 10px;
+    vertical-align: -3px;
+    letter-spacing: 2px;
 }
 
 .share .aicotoba {
-	margin: 0 6px 0 10px;
-	letter-spacing: 6px;
-	vertical-align: 4px;
+    margin: 0 6px 0 10px;
+    letter-spacing: 6px;
+    vertical-align: 4px;
 }
 
 /* =========================================
@@ -734,10 +734,10 @@ small p {
 	margin: 0 auto;
 	padding: 25px 180px 25px 183px;
 	background-color: #fff;
-	border: 2px solid #d07c7f;
-	color: #d07c7f;
-	border-radius: 5px;
-	letter-spacing: 4px;
+    border: 2px solid #d07c7f;
+    color: #d07c7f;
+    border-radius: 5px;
+    letter-spacing: 4px;
 }
 
 .btn_start:hover{
@@ -757,10 +757,10 @@ small p {
    ========================================= */
 
 .result_title{
-	margin-bottom: 50px;
+   	margin-bottom: 50px;
 	font-family: "Angelina","Hannari";
 	font-size: 35px;
-	text-align: center;
+    text-align: center;
 }
 
 .result_name{
@@ -777,23 +777,23 @@ small p {
 }
 
 .result_message p {
-	margin-bottom: 60px;
-	text-align: center;
-	color: #fff;
-	font-family:  Hannari;
-	font-weight: 100;
+ 	margin-bottom: 60px;
+    text-align: center;
+    color: #fff;
+    font-family:  Hannari;
+    font-weight: 100;
 	line-height: 3;
-	font-family: "TsukuBRdGothic-Regular","Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック", Osaka, sans-serif;
+    font-family: "TsukuBRdGothic-Regular","Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ","Meiryo","ＭＳ Ｐゴシック", Osaka, sans-serif;
 	font-size: 18px;
 }
 
 .result_btn {
 	margin: 0 auto;
 	padding: 25px 100px 25px 103px;
-	border: 2px solid #d07c7f;
-	color: #fff;
-	border-radius: 5px;
-	letter-spacing: 4px;
+    border: 2px solid #d07c7f;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 4px;
 	border: 2px solid #fff;
 }
 
@@ -815,15 +815,15 @@ small p {
 
 .loading {
 	position: fixed;
-	background-image: url("images/heart.png");
-	height: 430px;
-	width: 100%;
-	margin: 0 auto;
-	padding: 70px 0;
-	text-align: center;
-	color: #fff;
-	background-position: center;
-	background-color: rgba(225,225,225,0.8);
+    background-image: url("images/heart.png");
+    height: 430px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 70px 0;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+    background-color: rgba(225,225,225,0.8);
 }
 
 
@@ -839,8 +839,8 @@ small p {
 	font-size: 90px;
 	margin-top: -10px;
 	-webkit-animation:blink 1s ease-in-out infinite alternate;
-	-moz-animation:blink 1s ease-in-out infinite alternate;
-	animation:blink 1s ease-in-out infinite alternate;
+    -moz-animation:blink 1s ease-in-out infinite alternate;
+    animation:blink 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes blink{
@@ -858,3 +858,9 @@ small p {
 
 @media screen and (max-width:480px) {
 }
+
+
+
+
+
+
