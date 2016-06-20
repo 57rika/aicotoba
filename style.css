@@ -536,8 +536,12 @@ header span {
 
 .details{
 	float: left;
-    padding: 110px 0 110px 70px;
+	padding: 90px 0 90px 70px;
+}
 
+
+.details p{
+	line-height: 4;
 }
 
 #oneday_send, #oneday_receive, #most_send, #most_receive{
