@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <meta http-equiv="Content-Style-Type" content="text/css">
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" href="images/favicon.ico">
 <meta name=”keywords” content=”Aicotoba,診断,カップル,ラブラブ度”>
 <meta name=”keywords” content="何気ないメールのやり取りの中からAicotoba&quot;愛言葉&quot;を見つけるアプリ">
 <meta name="viewport" content="width=device-width,user-scalable=yes">
