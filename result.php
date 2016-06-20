@@ -119,19 +119,12 @@ if (isset($tmes)){
 		if (preg_match('/名詞/',$tmp)||preg_match('/感動詞/',$tmp)||
 		    preg_match('/動詞/',$tmp)||preg_match('/形容詞/',$tmp)){
 
-/*
-    echo $n->getSurface() . "<br />";
-echo $n->getFeature() . "<br />";
-*/
-
 		    $iwords[$n->getSurface()]=$iwords[$n->getSurface()]+1;
 		}
 	    }
 	}
     }
 
-	// print_r($ical);
-// print_r($ocal);
 	$maxin=0; $maxout=0; $i=0;
    foreach ($ical as $key=>$value){
    		$iall=$iall+$value;
@@ -169,7 +162,7 @@ echo $n->getFeature() . "<br />";
 				echo '<h2><img src="images/leaf01.png">あなたの<span class="aicotoba">Aicotoba</span><img src="images/leaf02.png"></h2>';
 				echo '<div class="word">';
 				foreach ($iwords as $key =>$value){
-//		echo $key . ': ' . $value . '<br>';
+
 					$size=$value*14;
 					echo '<p style="position: absolute; top: ' . rand(60,440) . 'px; left: ' . rand(60,1000) . 'px; font-size: ' . $size . 'px; font-family: Angelina,Hannari;">' . $key . '</p>';
 				}
@@ -183,8 +176,6 @@ echo $n->getFeature() . "<br />";
 					foreach ($nwords as $key =>$value){
 	   			$size=$value*14;
 	   				echo '<p style="position: absolute; top: ' . rand(60,440) . 'px; left: ' . rand(60,1000) . 'px; font-size: ' . $size . 'px; font-family: Angelina,Hannari;">' . $key . '</p>';
-
-//	    echo $key . ': ' . $value . '<br>';
 					}
 
 
@@ -204,20 +195,6 @@ echo $n->getFeature() . "<br />";
 			echo '</div>';
 		echo '</div>';
 	echo '</main>';
-
-//kokokara
-//   echo 'avgin:' . $avin . " avgout:" . $avout .  " maxindate:" . $maxind . " maxoutdate:" . $maxoutd . "<br>";
-
-//	echo '<h1>From Partner</h1>';
-//	foreach ($nwords as $key =>$value){
-//	    echo $key . ': ' . $value . '<br>';
-//	}
-
-//	echo '<h1>To Partner</h1>';
- //   foreach ($iwords as $key =>$value){
-//		echo $key . ': ' . $value . '<br>';
- //   }
-//kokomade
 
 }
 else{
@@ -248,7 +225,6 @@ else{
 
 				echo '</table>';
 				echo '</div>';
-//				echo '<a href="" class="btn_start">Start</a>';
 				echo '<input type="submit" value ="Start" class="btn_start"></form>';
 			echo '</div>';
 		echo '</div>';
@@ -256,11 +232,6 @@ else{
     } else {
     }
 }
-
-//print_r( $nwords);
-//print_r( $sents);
-// print_r($ical);
-// print_r($ocal);
 ?>
 
 	<footer>
